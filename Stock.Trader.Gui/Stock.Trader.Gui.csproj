@@ -36,6 +36,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxInterop.CSSWEBLOGINHTLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\AxInterop.CSSWEBLOGINHTLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CSSWEBLOGINHTLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\lib\Interop.CSSWEBLOGINHTLib.dll</HintPath>
+    </Reference>
     <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\lib\NHibernate.dll</HintPath>
@@ -95,29 +104,6 @@
     <Folder Include="Thread\" />
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="AxCSSWEBLOGINHTLib">
-      <Guid>{33309F38-FB7E-472A-AB07-7F2B478B9933}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>aximp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
-    <COMReference Include="CSSWEBLOGINHTLib">
-      <Guid>{33309F38-FB7E-472A-AB07-7F2B478B9933}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\StockTraderPrivate\Stock.Strategy.RotationB\Stock.Strategy.RotationB.csproj">
-      <Project>{C10192F9-9EB4-44E5-90D6-DA8852F929F8}</Project>
-      <Name>Stock.Strategy.RotationB</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Stock.Common\Stock.Common.csproj">
       <Project>{20C7D12A-F795-454C-8437-C09FDEA02839}</Project>
       <Name>Stock.Common</Name>

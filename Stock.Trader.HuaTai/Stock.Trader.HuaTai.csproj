@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -32,7 +33,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AxInterop.CSSWEBLOGINHTLib">
-      <HintPath>..\..\..\dd\source\lib\AxInterop.CSSWEBLOGINHTLib.dll</HintPath>
+      <HintPath>..\lib\AxInterop.CSSWEBLOGINHTLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CSSWEBLOGINHTLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\lib\Interop.CSSWEBLOGINHTLib.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\lib\Newtonsoft.Json.dll</HintPath>
