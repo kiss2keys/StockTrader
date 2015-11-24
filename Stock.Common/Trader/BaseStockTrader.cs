@@ -167,6 +167,7 @@ namespace Stock.Trader
         public TraderResult GetTradingAccountInfo()
         {
             TraderResult ret = internalGetTradingAccountInfo();
+            if (ret == null) return null;
             switch (ret.Code)
             {
                 case TraderResultEnum.TIMEOUT:
