@@ -41,9 +41,6 @@
     <Reference Include="Microsoft.Scripting">
       <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Scripting.Core">
-      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.Core.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\lib\Newtonsoft.Json.dll</HintPath>
     </Reference>

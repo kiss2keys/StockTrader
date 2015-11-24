@@ -40,10 +40,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Scripting.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.Core.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
