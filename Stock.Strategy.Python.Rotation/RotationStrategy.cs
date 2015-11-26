@@ -78,7 +78,7 @@ namespace Stock.Strategy.Python.Rotation
             scope.SetVariable("TradeAccount", this.GetTradingAccountInfo());   // 账户信息
 
             ScriptSource code = engine.CreateScriptSourceFromFile("e:\\projects\\test.py");
-            // code.Execute(scope);
+            //code.Execute(scope);
             Console.WriteLine("调用python策略");
         }
 
